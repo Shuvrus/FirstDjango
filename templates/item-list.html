@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+{% block style %}
+<style>
+    table {
+    border-spacing: 5px 5px;
+    border-collapse: separate;
+    }
+
+    td {
+    border: 2px solid;
+    width: 150px;
+
+    padding: 10px 5px 10px 5px;
+    }
+</style>
+{% endblock %}
+<h2>Список товаров</h2>
+<table>
+    <tr>
+{% for item in items %}
+    <td><a href="{% url 'item-page' item.id %}"><b>{{ item.name }} {{item.brand }}</b></a><br></td>
+{% endfor %}
+    </tr>
+</table>
+{% endblock %}

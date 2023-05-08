@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block style %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+{% endblock %}
+{% block content %}
+<h2>{{ item.name }}</h2>
+Бренд: {{ item.brand }}<br>
+Количество:
+{{ item.count | default:"Товара нет на складе" }}<br>
+<div class="test">
+    {{ item.description }}
+</div>
+<ul>
+{% for char in colors %}
+    <li>{{ char }}
+{% endfor %}
+</ul>
+{% endblock %}

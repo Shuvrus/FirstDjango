@@ -1,0 +1,135 @@
+[
+  {
+    "model": "MainApp.color",
+    "pk": 1,
+    "fields": {
+      "name": "красный"
+    }
+  },
+  {
+    "model": "MainApp.color",
+    "pk": 2,
+    "fields": {
+      "name": "зеленый"
+    }
+  },
+  {
+    "model": "MainApp.color",
+    "pk": 3,
+    "fields": {
+      "name": "белый"
+    }
+  },
+  {
+    "model": "MainApp.color",
+    "pk": 4,
+    "fields": {
+      "name": "черный"
+    }
+  },
+  {
+    "model": "MainApp.item",
+    "pk": 1,
+    "fields": {
+      "name": "Кроссовки",
+      "brand": "adiddas",
+      "count": 5,
+      "description": "Базовое описание",
+      "colors": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "MainApp.item",
+    "pk": 2,
+    "fields": {
+      "name": "Яблоко",
+      "brand": "Apple",
+      "count": 100,
+      "description": "Базовое описание",
+      "colors": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "MainApp.item",
+    "pk": 3,
+    "fields": {
+      "name": "Ноутбук",
+      "brand": "Lenovo",
+      "count": 15,
+      "description": "Базовое описание",
+      "colors": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "MainApp.item",
+    "pk": 4,
+    "fields": {
+      "name": "Монитор",
+      "brand": "Dell",
+      "count": 34,
+      "description": "Базовое описание",
+      "colors": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "MainApp.item",
+    "pk": 5,
+    "fields": {
+      "name": "Принтер",
+      "brand": "HP",
+      "count": 20,
+      "description": "Базовое описание",
+      "colors": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "MainApp.item",
+    "pk": 6,
+    "fields": {
+      "name": "Клавиатура",
+      "brand": "Logi",
+      "count": 50,
+      "description": "Базовое описание",
+      "colors": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "MainApp.item",
+    "pk": 7,
+    "fields": {
+      "name": "Мышка",
+      "brand": "Logi",
+      "count": 0,
+      "description": "Базовое описание",
+      "colors": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "MainApp.item",
+    "pk": 8,
+    "fields": {
+      "name": "Кресло",
+      "brand": "Аврора",
+      "count": 14,
+      "description": "Кожаное кресло для руководителя",
+      "colors": [
+        3
+      ]
+    }
+  }
+]
